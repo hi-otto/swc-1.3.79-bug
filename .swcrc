@@ -1,0 +1,18 @@
+{
+  "exclude": [
+    ".*(spec|test|oly-map).js$"
+  ],
+  "jsc": {
+    "parser": {
+      "syntax": "typescript",
+      "tsx": true
+    },
+    "baseUrl": ".",
+    "paths": {
+      "~/*": [
+        "./src/*"
+      ]
+    },
+    "externalHelpers": true
+  }
+}
