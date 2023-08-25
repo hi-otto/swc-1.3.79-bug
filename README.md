@@ -7,9 +7,6 @@
 ## .swcrc
 ```
 {
-  "exclude": [
-    ".*(spec|test|oly-map).js$"
-  ],
   "jsc": {
     "parser": {
       "syntax": "typescript",
